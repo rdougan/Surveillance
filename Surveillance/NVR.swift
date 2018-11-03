@@ -8,8 +8,6 @@
 
 import Foundation
 
-import RealmSwift
-
 fileprivate let STORAGE_NVR_URL_KEY = "STORAGE_NVR_URL_KEY"
 fileprivate let STORAGE_NVR_APIKEY_KEY = "STORAGE_NVR_APIKEY_KEY"
 

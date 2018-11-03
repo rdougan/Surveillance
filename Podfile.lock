@@ -1,26 +1,3 @@
-PODS:
-  - Realm (3.7.4):
-    - Realm/Headers (= 3.7.4)
-  - Realm/Headers (3.7.4)
-  - RealmSwift (3.7.4):
-    - Realm (= 3.7.4)
-  - UIAlertView-Blocks (1.0)
-
-DEPENDENCIES:
-  - RealmSwift
-  - UIAlertView-Blocks
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - Realm
-    - RealmSwift
-    - UIAlertView-Blocks
-
-SPEC CHECKSUMS:
-  Realm: a469bb59e33f9926102ccaea4349822c53b9117e
-  RealmSwift: a45861b21c180f5cf0f122144b9759fa8dde3e9e
-  UIAlertView-Blocks: 7904744fca618afbd2ec646608924f5e69d5acd1
-
-PODFILE CHECKSUM: 66d297a1776a2216caf38392db6ce37f00f85e0e
+PODFILE CHECKSUM: ca4d5b21e838c68426c282004b95571cc43d5b8c
 
 COCOAPODS: 1.5.2

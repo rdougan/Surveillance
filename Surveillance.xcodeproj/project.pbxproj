@@ -154,7 +154,6 @@
 				E168CB18218BF49400CB4A1D /* Sources */,
 				E168CB19218BF49400CB4A1D /* Frameworks */,
 				E168CB1A218BF49400CB4A1D /* Resources */,
-				04F32883D6A76BCB31C458CA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -212,28 +211,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		04F32883D6A76BCB31C458CA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Surveillance/Pods-Surveillance-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/UIAlertView-Blocks/UIAlertView_Blocks.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIAlertView_Blocks.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Surveillance/Pods-Surveillance-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		26CBBFE8131757B35BA87C71 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
